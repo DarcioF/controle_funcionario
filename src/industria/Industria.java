@@ -8,6 +8,7 @@ package industria;
 import industria.presentasion.PageDeleteEmployee;
 import industria.presentasion.PageInsertEmployee;
 import industria.presentasion.PagePrintEmployee;
+import industria.presentasion.PageUpMoneyEmployee;
 
 import java.util.Scanner;
 
@@ -37,7 +38,7 @@ public class Industria {
                     new PageDeleteEmployee().viewEmployeeRemove();
                     break;
                 case 3:
-                    new PageDeleteEmployee().viewEmployeeRemove();
+                    new PageUpMoneyEmployee().viewEmployeePercetage();
                     break;
                 case 4:
                     new PagePrintEmployee().viewEmployeePrint();

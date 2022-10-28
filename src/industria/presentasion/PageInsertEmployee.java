@@ -42,7 +42,7 @@ public class PageInsertEmployee {
         System.out.println("<------ Informe os Dados a seguir ------>");
         Employee employee = new Employee();
         System.out.println("Nome: ");
-        employee.setNome(new Scanner(System.in).next());
+        employee.setNome(new Scanner(System.in).next().toUpperCase());
         System.out.println("Data Nascimento (dd/mm/aaaa): ");
         employee.setData_nascimento(LocalDate.parse(new Scanner(System.in).next(),
                 DateTimeFormatter.ofPattern("dd/MM/yyyy")));
